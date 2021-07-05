@@ -150,6 +150,10 @@ ol li {
   border-radius: 20px;
 }
 
+.main-header li:last-child a {
+  padding-right: 0 !important;
+}
+
 .logo img {
   width: 180px;
 }
@@ -386,7 +390,7 @@ ol li {
   }
 }
 
-.waveWrapper {
+.wave-wrapper {
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -398,7 +402,7 @@ ol li {
   margin: auto;
 }
 
-.waveWrapper .waveWrapperInner {
+.wave-wrapper .wave-wrapper-inner {
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -409,21 +413,21 @@ ol li {
   background: linear-gradient(to right, #77FAC6, #1EA5FC);
 }
 
-.waveWrapper .waveWrapperInner.bgTop {
+.wave-wrapper .wave-wrapper-inner.bg-top {
   z-index: 15;
   opacity: 0.5;
 }
 
-.waveWrapper .waveWrapperInner.bgMiddle {
+.wave-wrapper .wave-wrapper-inner.bg-middle {
   z-index: 10;
   opacity: 0.75;
 }
 
-.waveWrapper .waveWrapperInner.bgBottom {
+.wave-wrapper .wave-wrapper-inner.bg-bottom {
   z-index: 5;
 }
 
-.waveWrapper .waveWrapperInner .wave {
+.wave-wrapper .wave-wrapper-inner .wave {
   position: absolute;
   left: 0;
   width: 200%;
@@ -434,7 +438,7 @@ ol li {
           transform-origin: center bottom;
 }
 
-.waveWrapper .waveWrapperInner .wave.waveTop {
+.wave-wrapper .wave-wrapper-inner .wave.wave-top {
   background-size: 50% 100px;
   animation: move-wave 3s;
   -webkit-animation: move-wave 3s;
@@ -442,13 +446,13 @@ ol li {
           animation-delay: 1s;
 }
 
-.waveWrapper .waveWrapperInner .wave.waveMiddle {
+.wave-wrapper .wave-wrapper-inner .wave.wave-middle {
   background-size: 50% 120px;
   -webkit-animation: move_wave 10s linear infinite;
           animation: move_wave 10s linear infinite;
 }
 
-.waveWrapper .waveWrapperInner .wave.waveBottom {
+.wave-wrapper .wave-wrapper-inner .wave.wave-bottom {
   background-size: 50% 100px;
   -webkit-animation: move_wave 15s linear infinite;
           animation: move_wave 15s linear infinite;
@@ -946,7 +950,7 @@ footer .social-links a:hover {
   .banner-section .banner-content .banner-content-box h1 {
     font-size: 52px;
   }
-  .waveWrapper .waveWrapperInner .wave.waveTop, .waveWrapper .waveWrapperInner .wave.waveMiddle, .waveWrapper .waveWrapperInner .wave.waveBottom {
+  .wave-wrapper .wave-wrapper-inner .wave.wave-top, .wave-wrapper .wave-wrapper-inner .wave.wave-middle, .wave-wrapper .wave-wrapper-inner .wave.wave-bottom {
     background-size: 100%;
   }
   h2 {

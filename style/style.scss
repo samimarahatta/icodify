@@ -139,6 +139,11 @@ ol {
         border-radius: 20px;
       }
     }
+    &:last-child {
+      a {
+        padding-right: 0 !important;
+      }
+    }
   }
 }
 .logo img {
@@ -309,12 +314,12 @@ ol {
     transform: translateX(-50%) translateZ(0) scaleY(1);
   }
 }
-.waveWrapper {
+.wave-wrapper {
   overflow: hidden;
   @include position(0, 0, 0, 0);
   z-index: 0;
   margin: auto;
-  .waveWrapperInner {
+  .wave-wrapper-inner {
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -322,15 +327,15 @@ ol {
     bottom: -1px;
     background: $primary;
     background: linear-gradient(to right, $secondary, $primary);
-    &.bgTop {
+    &.bg-top {
       z-index: 15;
       opacity: 0.5;
     }
-    &.bgMiddle {
+    &.bg-middle {
       z-index: 10;
       opacity: 0.75;
     }
-    &.bgBottom {
+    &.bg-bottom {
       z-index: 5;
     }
 
@@ -342,19 +347,19 @@ ol {
       background-repeat: repeat no-repeat;
       background-position: 0 bottom;
       transform-origin: center bottom;
-      &.waveTop {
+      &.wave-top {
         background-size: 50% 100px;
         animation: move-wave 3s;
         -webkit-animation: move-wave 3s;
         animation-delay: 1s;
       }
 
-      &.waveMiddle {
+      &.wave-middle {
         background-size: 50% 120px;
         animation: move_wave 10s linear infinite;
       }
 
-      &.waveBottom {
+      &.wave-bottom {
         background-size: 50% 100px;
         animation: move_wave 15s linear infinite;
       }
@@ -736,10 +741,10 @@ footer {
   .banner-section .banner-content .banner-content-box h1 {
     font-size: 52px;
   }
-  .waveWrapper .waveWrapperInner .wave {
-    &.waveTop,
-    &.waveMiddle,
-    &.waveBottom {
+  .wave-wrapper .wave-wrapper-inner .wave {
+    &.wave-top,
+    &.wave-middle,
+    &.wave-bottom {
       background-size: 100%;
     }
   }

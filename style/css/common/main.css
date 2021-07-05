@@ -4,7 +4,7 @@
   --primary: #6d8cf8;
   --secondary: #ff00d6;
   --lightblue: #586ee4;
-  --active : #29f5eb;
+  --active: #29f5eb;
 }
 
 body {
@@ -121,10 +121,10 @@ ol li {
   z-index: 10;
   position: absolute;
 }
-.logo img{
+.logo img {
   width: 200px;
 }
-.main-header li a.nav-link{
+.main-header li a.nav-link {
   display: inline;
   padding: 10px 30px !important;
   font-weight: 500;
@@ -132,10 +132,10 @@ ol li {
   font-size: 16px;
   position: relative;
 }
-.main-header li a.nav-link.active{
+.main-header li a.nav-link.active {
   background: var(--active);
   color: #2b2b2b !important;
-  border-radius: 20px;;
+  border-radius: 20px;
 }
 /* header css end */
 
@@ -162,10 +162,6 @@ ol li {
   }
 }
 /* spacing css end*/
-
-
-
-
 
 /* slick styler style start */
 .slick-slide img {
@@ -207,12 +203,11 @@ ol li {
 }
 /* slick styler style end*/
 
-
 .banner-section {
   overflow: visible;
   background: var(--primary);
   padding: 170px 0px;
-  background: linear-gradient(to right, var(--secondary),var(--primary));
+  background: linear-gradient(to right, var(--secondary), var(--primary));
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -243,14 +238,14 @@ ol li {
   line-height: 1.083;
   padding-bottom: 20px;
 }
-.banner-section .banner-content h1 span.animate-typing{
+.banner-section .banner-content h1 span.animate-typing {
   color: #000;
 }
 .banner-section .banner-content p {
   font-size: 19px;
   margin: 0 0 30px;
 }
-.banner-img{
+.banner-img {
   position: absolute;
   top: 0;
   right: 0;
@@ -276,7 +271,7 @@ ol li {
   background-repeat: no-repeat;
   background-image: url("../../../img/bl-shape.png");
 }
-.banner-btn{
+.banner-btn {
   background-color: var(--secondary);
   color: #fff;
   border-radius: 0 20px 20px 20px;
@@ -314,7 +309,7 @@ ol li {
   height: 100%;
   bottom: -1px;
   background: var(--primary);
-  background: linear-gradient(to right,var(--secondary), var(--primary));
+  background: linear-gradient(to right, var(--secondary), var(--primary));
 }
 
 .bgTop {
@@ -322,7 +317,7 @@ ol li {
   opacity: 0.5;
 }
 
-.bgMiddle {
+.bg-middle {
   z-index: 10;
   opacity: 0.75;
 }
@@ -341,67 +336,67 @@ ol li {
   transform-origin: center bottom;
 }
 
-.waveTop {
+.wave-top {
   background-size: 50% 100px;
 }
 
-.waveAnimation .waveTop {
+.waveAnimation .wave-top {
   animation: move-wave 3s;
   -webkit-animation: move-wave 3s;
   animation-delay: 1s;
 }
 
-.waveMiddle {
+.wave-middle {
   background-size: 50% 120px;
 }
 
-.waveAnimation .waveMiddle {
+.waveAnimation .wave-middle {
   animation: move_wave 10s linear infinite;
 }
 
-.waveBottom {
+.wave-bottom {
   background-size: 50% 100px;
 }
 
-.waveAnimation .waveBottom {
+.waveAnimation .wave-bottom {
   animation: move_wave 15s linear infinite;
 }
 
-.title{
+.title {
   margin-bottom: 40px;
 }
 
 /* services css start */
-.service-box{
+.service-box {
   background-color: #e9ebf7;
   border-radius: 10px;
-    /* margin-bottom: 50px; */
-    padding: 25px 30px 30px 35px;
-    z-index: 1;
-    transition: 0.5s all ease-in-out;
-    /* box-shadow: 0px 20px 81px 0px rgb(8 0 20 / 14%); */
+  /* margin-bottom: 50px; */
+  padding: 25px 30px 30px 35px;
+  z-index: 1;
+  transition: 0.5s all ease-in-out;
+  /* box-shadow: 0px 20px 81px 0px rgb(8 0 20 / 14%); */
 }
-.services .col-md-4:not(:nth-last-child(-n+3)) .service-box{
+.services .col-md-4:not(:nth-last-child(-n + 3)) .service-box {
   margin-bottom: 30px;
 }
-.service-box i{
+.service-box i {
   font-size: 60px;
   background: -webkit-linear-gradient(var(--secondary), var(--primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
-.service-box h3{
+.service-box h3 {
   font-size: 22px;
 }
 /* services css end */
 
 /* about us section */
-.about-us{
+.about-us {
   background-color: #eceef6;
   overflow: hidden;
 }
-.phone-wrap{
+.phone-wrap {
   min-height: 500px;
   width: 240px;
   background-size: contain !important;
@@ -409,26 +404,26 @@ ol li {
   padding: 70px 24px;
 }
 .phone-case:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 800px;
   width: 800px;
-  background: linear-gradient(to right, var(--secondary),var(--primary));
+  background: linear-gradient(to right, var(--secondary), var(--primary));
   border-radius: 50%;
   top: -70%;
   left: 26px;
 }
-.about-tabs li{
+.about-tabs li {
   width: 50%;
   margin-bottom: 20px;
 }
-.about-tabs li a{
+.about-tabs li a {
   font-size: 18px;
   padding-bottom: 20px;
   display: inline-flex;
   align-items: center;
 }
-.about-tabs li a i{
+.about-tabs li a i {
   font-size: 30px;
   margin-right: 10px;
 }
