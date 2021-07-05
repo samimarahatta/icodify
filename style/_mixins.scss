@@ -1,0 +1,27 @@
+@mixin flex($flexDisplay) {
+  display: $flexDisplay;
+  justify-content: center;
+  align-items: center;
+}
+@mixin position($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+  content: "";
+}
+@mixin gradientBorder {
+  border: double 2px transparent;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, $lightblue, $secondary, $primary);
+  background-origin: border-box;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  background-clip: content-box, border-box;
+}
+@mixin gradientText {
+  background: -webkit-linear-gradient($secondary, $primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

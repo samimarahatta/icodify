@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+  .left-menu {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+  }
+  .left-menu.show-menu {
+    display: block;
+  }
+  .bottom-header {
+    position: relative;
+  }
+}
