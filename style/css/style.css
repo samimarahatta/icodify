@@ -127,7 +127,7 @@ ol li {
 }
 
 .main-header.fixed .logo img {
-  width: 100px;
+  width: 120px;
 }
 
 .main-header.fixed a.nav-link {
@@ -145,7 +145,7 @@ ol li {
 }
 
 .main-header li a.nav-link.active {
-  background: #77FAC6;
+  background: #77fac6;
   color: #2b2b2b !important;
   border-radius: 20px;
 }
@@ -249,10 +249,10 @@ ol li {
 /* slick styler style end*/
 .banner-section {
   overflow: hidden;
-  background: #1EA5FC;
+  background: #1ea5fc;
   padding: 170px 0px;
-  background: -webkit-gradient(linear, left top, right top, from(#77FAC6), to(#1EA5FC));
-  background: linear-gradient(to right, #77FAC6, #1EA5FC);
+  background: -webkit-gradient(linear, left top, right top, from(#77fac6), to(#1ea5fc));
+  background: linear-gradient(to right, #77fac6, #1ea5fc);
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,7 +352,7 @@ ol li {
 }
 
 .banner-btn {
-  background-color: #77FAC6;
+  background-color: #77fac6;
   color: #fff;
   border-radius: 0 20px 20px 20px;
   padding: 15px 20px;
@@ -408,9 +408,9 @@ ol li {
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background: #1EA5FC;
-  background: -webkit-gradient(linear, left top, right top, from(#77FAC6), to(#1EA5FC));
-  background: linear-gradient(to right, #77FAC6, #1EA5FC);
+  background: #1ea5fc;
+  background: -webkit-gradient(linear, left top, right top, from(#77fac6), to(#1ea5fc));
+  background: linear-gradient(to right, #77fac6, #1ea5fc);
 }
 
 .wave-wrapper .wave-wrapper-inner.bg-top {
@@ -494,7 +494,7 @@ ol li {
 }
 
 .services .col-md-4 .service-box i {
-  background: -webkit-linear-gradient(#77FAC6, #1EA5FC);
+  background: -webkit-linear-gradient(#77fac6, #1ea5fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
@@ -531,8 +531,8 @@ ol li {
   height: 100%;
   width: 100%;
   padding-bottom: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#77FAC6), to(#1EA5FC));
-  background: linear-gradient(to right, #77FAC6, #1EA5FC);
+  background: -webkit-gradient(linear, left top, right top, from(#77fac6), to(#1ea5fc));
+  background: linear-gradient(to right, #77fac6, #1ea5fc);
   border-radius: 50%;
 }
 
@@ -602,14 +602,14 @@ ol li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-linear-gradient(#77FAC6, #1EA5FC);
+  background: -webkit-linear-gradient(#77fac6, #1ea5fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
 }
 
 .about-us .about-tabs li a.active {
-  background: linear-gradient(45deg, #77FAC6, #1EA5FC);
+  background: linear-gradient(45deg, #77fac6, #1ea5fc);
   color: #fff !important;
 }
 
@@ -684,7 +684,7 @@ ol li {
 }
 
 .employee-img .employee-social-links ul li a:hover {
-  background: linear-gradient(45deg, #77FAC6, #1EA5FC);
+  background: linear-gradient(45deg, #77fac6, #1ea5fc);
   color: #fff;
 }
 
@@ -696,8 +696,8 @@ ol li {
   bottom: initial;
   content: "";
   border: double 2px transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), radial-gradient(circle at top left, #1ea6e2, #77FAC6, #1EA5FC);
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #1ea6e2, #77FAC6, #1EA5FC);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), radial-gradient(circle at top left, #1ea6e2, #77fac6, #1ea5fc);
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #1ea6e2, #77fac6, #1ea5fc);
   background-origin: border-box;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
@@ -779,7 +779,7 @@ ol li {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 20px;
-  color: #1EA5FC;
+  color: #1ea5fc;
 }
 
 .project-slider {
@@ -810,7 +810,7 @@ ol li {
 }
 
 .counter-wrap .counter-value-wrap {
-  background: -webkit-linear-gradient(#77FAC6, #1EA5FC);
+  background: -webkit-linear-gradient(#77fac6, #1ea5fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: -webkit-box;
@@ -874,7 +874,7 @@ footer .footer-nav-link li::before {
   right: initial;
   bottom: initial;
   content: "";
-  background: -webkit-linear-gradient(#77FAC6, #1EA5FC);
+  background: -webkit-linear-gradient(#77fac6, #1ea5fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   content: "\f101";
@@ -910,7 +910,7 @@ footer .social-links a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #1EA5FC;
+  color: #1ea5fc;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -919,7 +919,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  background-color: #1EA5FC;
+  background-color: #1ea5fc;
   color: #fff;
 }
 
@@ -936,7 +936,7 @@ footer .social-links a:hover {
   position: absolute;
   height: 250px;
   width: 250px;
-  background: linear-gradient(45deg, #77FAC6, #1EA5FC);
+  background: linear-gradient(45deg, #77fac6, #1ea5fc);
   opacity: 0.2;
   bottom: 10%;
   right: -8%;
